@@ -10,8 +10,8 @@ public class AuthorizationApplication {
 	
 	
 	public static void main(String[] args) {
-		SpringAppli cation.run(AuthorizationApplication.class, args);
-	}  
+		SpringApplication.run(AuthorizationApplication.class, args);
+	}
 	
 //	//@Bean
 //	public Docket authApi() {
