@@ -7,8 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //@Configuration
 //@EnableSwagger2
 public class AuthorizationApplication {  
-	
-	
+		
 	public static void main(String[] args) {
 		SpringApplication.run(AuthorizationApplication.class, args);
 	}
