@@ -18,7 +18,7 @@ import com.pension.entity.LoginUserDetail;
 import com.pension.service.UserDetailService;
 
 @RestController
-@CrossOrigin(value = { "http://localhost:4200" }, methods = { RequestMethod.POST })
+@CrossOrigin(value = { "http://localhost:4200","*" }, methods = { RequestMethod.POST })
 public class AuthorizationController {
 	
 	private Logger log = LoggerFactory.getLogger(AuthorizationController.class);
