@@ -26,7 +26,7 @@ public class AuthorizationController {
 	@Autowired
 	private UserDetailService service;
 
-	@GetMapping("/test")
+	@GetMapping("/test") 
 	public String awsHealthCall(){
 		return "API POSTMAN TEST ONLY : It is working in ECS Sevice Container - CI/CD \nTask Revision Created";
 	}

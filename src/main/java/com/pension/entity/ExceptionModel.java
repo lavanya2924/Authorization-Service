@@ -1,9 +1,13 @@
 package com.pension.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+//import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+//@Data
+@Getter
+@Setter
 @AllArgsConstructor
 public class ExceptionModel {
 	private String message;
